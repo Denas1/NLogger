@@ -36,7 +36,29 @@ To use **NLogger** effectively, ensure you have the following installed:
 The plugin uses a `config.yml` file where you can customize the following:
 
 ```yaml
+language: "en.yml" # Options: "en.yml" or "cz.yml"
+mysql:
+  enabled: false
+  host: "localhost"
+  port: 3306
+  database: "minecraft"
+  user: "root"
+  password: "password"
+
+discord:
+  token: "YOUR_DISCORD_BOT_TOKEN_HERE"  # ⚠️ Nastavte správný token!
+
+DeathMessage:
+  Enabled: false  # Pokud je false, zprávy se nebudou posílat
+  Channel_deadmessage: "123456789012345678"  # Discord ID kanálu (NE název kanálu!)
+
 ChatLog:
-  Enabled: true  # Enable or disable chat logging
-  Channel: "123456789012345678"  # Discord channel ID for logging messages
-  Embed: true  # Use embed messages instead of plain text
+  Enabled: false
+  Channel: "1170059765825667162" # ID kanálu na Discordu
+  Embed: true         # Pokud je true, zprávy budou v embedu
+  Color: "#3498db"    # Barva embedu (např. modrá)
+
+CommandLog:
+    Enabled: false
+    Channel: "1242095233982922752" # ID Discord kanálu
+    Embed: true
