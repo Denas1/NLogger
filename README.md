@@ -2,7 +2,7 @@
 
 🔹 **The ultimate chat logging & Discord integration plugin for Minecraft**  
 
-📌 **Supports all Minecraft versions from** `1.7.9` **to** `1.21.x`  
+📌 **Supports all Minecraft versions from** `1.20+` **to** `1.21.x`  
 
 ---
 
@@ -17,7 +17,7 @@
 ---
 
 ### 🔗 **Resources & Support**  
-📥 **[Latest Release](#)**   |   💬 **[Discord](#)**   |   🛠 **[Documentation](#)**   |   📂 **[Source Code](#)**  
+📥 **[Latest Release](https://github.com/Denas1/NLogger/releases)**   |   💬 **[Discord](https://discord.gg/YXm26egK6g)**   |   🛠 **[Documentation](https://github.com/Denas1/NLogger/wiki)**   |
 
 ---
 
